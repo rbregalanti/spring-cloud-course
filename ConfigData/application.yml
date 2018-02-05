@@ -10,12 +10,12 @@ server:
 ---
 spring:
   profiles: subject
-words: I,You,He,She,It
+words: I,You,He,She,It,We,They
 
 ---
 spring:
   profiles: verb
-words: ran,knew,had,saw,bought
+words: ran,knew,had,saw,bought,slept,earned
 
 ---
 spring:
@@ -25,9 +25,9 @@ words: a,the
 ---
 spring:
   profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
+words: reasonable,leaky,suspicious,ordinary,unlikely,nice,awesome,awful,weird
 
 ---
 spring:
   profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog  
+words: boat,book,vote,seat,backpack,partition,groundhog,car,cup,cigarrete
