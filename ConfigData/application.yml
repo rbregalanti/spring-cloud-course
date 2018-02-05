@@ -6,7 +6,7 @@ eureka:
       
 ---
 spring:
-  profiles: lab-4-subject
+  profiles: subject
 
 server:
   port: ${PORT:${SERVER_PORT:0}}
